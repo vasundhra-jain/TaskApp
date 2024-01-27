@@ -1,0 +1,141 @@
+.task-container {
+  display: flex;
+  height: 100vh;
+}
+
+.task-container-1 {
+  background-color: #131213;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-container-1-heading {
+  margin-top: 100px;
+  font-family: roboto;
+  color: #f3aa4e;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.label {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.add-task-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-family: roboto;
+  cursor: pointer;
+  padding: 5px;
+  width: 120px;
+  height: 40px;
+}
+
+.task-container-2 {
+  background-color: #000000;
+  width: 60%;
+  padding: 20px;
+}
+
+.task-container-2-heading {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.unordered-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+
+.tag-button {
+  background-color: transparent;
+  border: 0.5px solid #ffffff;
+  color: #ffffff;
+  margin: 6px;
+  min-width: 70px;
+  padding: 6px;
+  border-radius: 15px;
+}
+
+.empty-list-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-list-para {
+  color: #f8f8f8;
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.task-unordered-list {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.task-list-item {
+  background-color: #1a171d;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  margin: 10px;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-name-para {
+  padding: 0px;
+  color: #f1f5f9;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.task-item-tag-container {
+  background-color: #f3aa4e;
+  color: #323f4b;
+  padding: 12px;
+  min-width: 60px;
+  border-radius: 12px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: roboto;
+  font-weight: 600;
+}
+
+.add-on{
+    background-color: #f3aa4e;
+    border: 0px;
+}
